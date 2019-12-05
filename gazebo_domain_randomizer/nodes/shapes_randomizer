@@ -36,7 +36,7 @@ _material_list = ['Gazebo/3_4',
                   'Gazebo/johnny_sins']
 
 class ShapesRandomizer:
-    def __init__(self, position_range, size_range=[0.3, 0.7],
+    def __init__(self, position_range, size_range=[0.3, 0.72],
                  max_num_model=10,
                  gazebo_ns='/gazebo'):
         self._sdf_temp = Template(_obj_sdf)
